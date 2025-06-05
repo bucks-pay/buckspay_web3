@@ -6,7 +6,7 @@ import {Pausable} from "@openzeppelin/contracts/utils/Pausable.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-contract BuckspayV1_4 is ReentrancyGuard, AccessControl, Pausable {
+contract BuckspayV4 is ReentrancyGuard, AccessControl, Pausable {
     using SafeERC20 for IERC20;
 
     IERC20 public token;
